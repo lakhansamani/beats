@@ -96,6 +96,18 @@ var (
 				},
 			}),
 		}),
+		"threadpool": c.Dict("thread_pool", s.Schema{
+			"write": c.Dict("index", s.Schema{
+				"queue":    c.Int("queue"),
+				"active":   c.Int("active"),
+				"rejected": c.Int("rejected"),
+			}),
+			"search": c.Dict("search", s.Schema{
+				"queue":    c.Int("queue"),
+				"active":   c.Int("active"),
+				"rejected": c.Int("rejected"),
+			}),
+		}),
 		"fs": c.Dict("fs", s.Schema{
 			"summary": c.Dict("total", s.Schema{
 				"total": s.Object{

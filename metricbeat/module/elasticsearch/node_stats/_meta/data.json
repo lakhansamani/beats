@@ -128,6 +128,18 @@
                         }
                     }
                 },
+                "threadpool": {
+                    "search": {
+                        "active": 0,
+                        "rejected": 0,
+                        "queue": 0
+                    },
+                    "write": {
+                        "queue": 0,
+                        "active": 0,
+                        "rejected": 0
+                    }
+                },
                 "fs": {
                     "summary": {
                         "total": {
