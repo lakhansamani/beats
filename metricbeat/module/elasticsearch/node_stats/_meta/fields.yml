@@ -181,30 +181,6 @@
       description: >
         Node threadpool stats
       fields:
-        - name: bulk.active
-          type: long
-          description: >
-            The count of bulk threads.
-        - name: bulk.queue
-          type: long
-          description: >
-            The length of bulk queue.
-        - name: bulk.rejected
-          type: long
-          description: >
-            The count of rejected bulk.
-        - name: index.active
-          type: long
-          description: >
-            The count of index threads.
-        - name: index.queue
-          type: long
-          description: >
-            The length of index queue.
-        - name: index.rejected
-          type: long
-          description: >
-            The count of rejected index.
         - name: search.active
           type: long
           description: >

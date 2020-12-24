@@ -97,16 +97,6 @@ var (
 			}),
 		}),
 		"threadpool": c.Dict("thread_pool", s.Schema{
-			"index": c.Dict("index", s.Schema{
-				"queue":    c.Int("queue"),
-				"active":   c.Int("active"),
-				"rejected": c.Int("rejected"),
-			}),
-			"bulk": c.Dict("bulk", s.Schema{
-				"queue":    c.Int("queue"),
-				"active":   c.Int("active"),
-				"rejected": c.Int("rejected"),
-			}),
 			"search": c.Dict("search", s.Schema{
 				"queue":    c.Int("queue"),
 				"active":   c.Int("active"),
