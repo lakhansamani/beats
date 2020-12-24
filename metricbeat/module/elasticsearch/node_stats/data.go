@@ -97,7 +97,7 @@ var (
 			}),
 		}),
 		"threadpool": c.Dict("thread_pool", s.Schema{
-			"write": c.Dict("index", s.Schema{
+			"write": c.Dict("write", s.Schema{
 				"queue":    c.Int("queue"),
 				"active":   c.Int("active"),
 				"rejected": c.Int("rejected"),
